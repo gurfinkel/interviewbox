@@ -1,4 +1,5 @@
 module.exports = {
-    dgraphHost: process.env.DGRAPH_HOST,
-    dgraphKey: process.env.DGRAPH_KEY
+    endpointId: process.env.ENDPOINT_ID,
+    projectId: process.env.PROJECT_ID,
+    location: process.env.LOCATION,
 }
